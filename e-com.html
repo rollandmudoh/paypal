@@ -333,7 +333,7 @@ duplicate elements can get rendered if it's not run -->
   <script>
   (function(h,o,u,n,d) {
     h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
-    d=o.createElement(u);d.async=1;d.src=n
+   
     n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
   })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-slim-v4.js','DD_RUM')
   DD_RUM.onReady(function() {
